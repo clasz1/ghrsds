@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 50%;
+    background: url(images/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.navbar ul{
+    margin-top: 1%;
+    margin-left: 60%;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.navbar ul li a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: dodgerblue;
+    transition: .4s ease;
+}
+
+.navbar ul li a:hover{
+    color: blueviolet;
+}
+
+.info{
+    position: fixed;
+    margin-left: 55%;
+    margin-top: 10%;
+    line-height: 24px;
+}
+
+.info h3{
+    letter-spacing: 1px;
+}
+
+.info .profile{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.logos img{
+    width: 100px;
+    position: relative;
+    margin-top: 85%;
+    left: 122%;
+}
+
+.abt_profile{
+    position: fixed;
+    margin-top: 12%;
+    margin-left: 45%;
+    width: 200px;
+}
+
+.main h1{
+    position: fixed;
+    margin-top: 8%;
+    margin-left: 45%;
+    color: indigo;
+}
+
+.abt_info{
+    position: fixed;
+    margin-left: 60%;
+    margin-top: 11%;
+    line-height: 60px;
+}
+
+.abt_info h2{
+    letter-spacing: 2px;
+}
+
+.hobbies ul{
+    position: fixed;
+    margin-top: 13%;
+    margin-left: 52%;
+    font-size: 50px;
+    color: cadetblue;
+}
+
+.hobbies ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.hobbies ul li a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.hobbies ul li a:hover{
+    color: mediumpurple;
+}
+
+.hobbies h2{
+    position: fixed;
+    margin-left: 55%;
+    margin-top: 30%;
+    letter-spacing: 2px;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.hobbies h3{
+    position: fixed;
+    left: 65.5%;
+    top: 353px;
+}
+
+.hobbies img{
+    width: 200px;
+    position: relative;
+    left: 130%;
+    top: 760px;
+}
+
+.drawings img{
+    width: 318px;
+    position: relative;
+    left: 110%;
+    top: 210px;
+}
+
+.clips video{
+    position: relative;
+    left: 100%;
+    top: 230px;
+    width: 400px;
+}
+
+.pictures img{
+    position: relative;
+    width: 300px;
+    left: 100%;
+    top: 250px;
+}
